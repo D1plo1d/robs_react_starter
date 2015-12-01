@@ -6,7 +6,7 @@
 
 ## Running the Dev Server
 
-To start the dev server simply run `webpack-dev-server` from your nearest command line interface (note: you have to run it in this folder so it knows which webpack.config to load).
+To start the dev server simply run `webpack-dev-server --hot` from your nearest command line interface (note: you have to run it in this folder so it knows which webpack.config to load).
 
 ## Notes
 - ES6 introduces classes (which are just fancy prototypes)
