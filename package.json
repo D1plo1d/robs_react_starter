@@ -23,6 +23,8 @@
     "eslint": "*",
     "babel-eslint": "*",
     "react-hot-loader": "*",
+    "whatwg-fetch": "*",
+    "react-css-modules": "*",
 
     "react": "0.14.3",
     "react-dom": "0.14.3",

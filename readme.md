@@ -30,6 +30,6 @@ To start the dev server simply run `webpack-dev-server --hot` from your nearest 
 Check out: https://facebook.github.io/react/docs/tutorial.html#reactive-state
 - fetch is a new standard API that replaces XHR or if you use jquery $.get and it's included in this app!
 Check out: https://developer.mozilla.org/en/docs/Web/API/Fetch_API
-- React CSS Modules make CSS soo much more manageable. Check them out: https://github.com/gajus/react-css-modules
+- React CSS Modules make CSS dependencies much more manageable by making them declarative and composable (like react!). Check them out: https://github.com/gajus/react-css-modules
 - React Animations can be helpful if you need to do simple transitions when components are added and removed.
 Check out: https://facebook.github.io/react/docs/animation.html
