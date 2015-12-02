@@ -7,11 +7,17 @@ export default class CommentSection extends React.Component {
   constructor(...args) { super(...args) }
 
   render() {
+    var myComments = [{
+      author: "Me",
+      content: "Hello World!"
+    }]
     return (
       <div className="container">
         <div className="row">
           <div className="col-xs-12">
             <h1>Hello World</h1>
+            <CommentBox/>
+            <CommentList comments={myComments}/>
           </div>
         </div>
       </div>

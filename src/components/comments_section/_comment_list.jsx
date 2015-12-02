@@ -18,7 +18,8 @@ export default class CommentList extends React.Component {
         content: "YOLO!",
         author: "coolguy420",
       },
-    ]
+    ],
+    pageName: "test"
   }
 
   // render() {
@@ -32,7 +33,7 @@ export default class CommentList extends React.Component {
   render() {
     return (
       <div>
-        <h1>Other People's Comments</h1>
+        <h1>Other People's Comments on {this.props.pageName}</h1>
         <div>
           {
             this.props.comments.map(function (comment, i) {
