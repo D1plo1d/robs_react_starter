@@ -2,6 +2,9 @@
   "name": "resume",
   "version": "0.0.1",
   "private": true,
+  "scripts": {
+    "start": "node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot"
+  },
   "dependencies": {
     "coffee-script": "1.9.3",
     "webpack": "*",
